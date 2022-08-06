@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // Route to Calculator
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/static/calculator.html');
+  res.sendFile(__dirname + '/static/index.js');
 });
 
 // Route to Login Page
